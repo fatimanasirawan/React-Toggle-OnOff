@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+React Dark Mode Toggle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 Project Overview
 
-## Available Scripts
+The **React Dark Mode Toggle** is a beginner-friendly React application that allows users to switch between Light Mode and Dark Mode using a custom toggle switch.
 
-In the project directory, you can run:
+The project demonstrates React state management, conditional rendering, event handling, and reusable helper functions to dynamically change the application's appearance.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📌 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Toggle between Light and Dark themes
 
-### `npm test`
+✅ Dynamic background color switching
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Custom animated toggle switch
 
-### `npm run build`
+✅ Responsive UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Instant UI updates using React state
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📌 Technologies Used
 
-### `npm run eject`
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Hooks
+- JSX
+- Vite
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📌 React Concepts Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project demonstrates:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Functional Components
+- useState Hook
+- State Management
+- Event Handling
+- Conditional Rendering
+- Dynamic CSS Classes
+- Ternary Operator
+- Helper Functions
+- Component Re-rendering
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📌 How It Works
 
-## Learn More
+1. Application starts in Light Mode.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+↓
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. User clicks the toggle switch.
 
-### Code Splitting
+↓
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. The click event calls the helper function.
 
-### Analyzing the Bundle Size
+↓
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. React updates the `isDark` state.
 
-### Making a Progressive Web App
+↓
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Conditional rendering applies the Dark Mode CSS classes.
 
-### Advanced Configuration
+↓
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ 6. The background and toggle switch update instantly.
 
-### Deployment
+ 📌 Learning Objectives
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project was created to practice:
 
-### `npm run build` fails to minify
+- React Fundamentals
+- React Hooks
+- useState Hook
+- Event Handling
+- Conditional Rendering
+- Dynamic Styling
+- Reusable Functions
+- State-Based UI Updates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📌 Author
+
+Fatima Nasir Awan
+
+Software Engineering Graduate
